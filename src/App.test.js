@@ -4,11 +4,7 @@ import { screen } from '@testing-library/dom' ;
 import userEvent from '@testing-library/user-event';
 import ProductsList from './ProductsList';
 
-// test('renders learn react link', () => {
-//   const { getByText } = render(<App />);
-//   const linkElement = getByText(/learn react/i);
-//   expect(linkElement).toBeInTheDocument();
-// });
+
 const products = [
   { prodName: "orange", price: 2, category: "fruit" },
   { prodName: "banana", price: 5, category: "fruit" },
